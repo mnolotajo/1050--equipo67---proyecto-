@@ -1,1 +1,1 @@
-# 1050--equipo67---proyecto-
+# 1050-equipo67-organizador/proyecto-
