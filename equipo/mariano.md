@@ -1,3 +1,3 @@
 # Mariano Hernández 
-Rol en el proyecto: Caso de uso y riesgos éticos
+Rol en el proyecto: Caso de uso, investigacion y riesgos éticos
 
