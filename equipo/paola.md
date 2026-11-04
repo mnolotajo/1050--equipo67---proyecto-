@@ -1,4 +1,4 @@
 # Paola Bocanegra 
 
-Rol en el proyecto: README
+Rol en el proyecto: README y organizacion
 
