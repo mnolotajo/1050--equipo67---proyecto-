@@ -47,5 +47,3 @@ flowchart TD
 
 
 
-
-![Boceto de la aplicación](MODELCARD.png)
