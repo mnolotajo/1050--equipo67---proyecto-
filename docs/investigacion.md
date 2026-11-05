@@ -86,6 +86,9 @@ Comparación del modelo elegido con una alternativa multilingüe, según sus Mod
 
 El equipo mantiene DeBERTa como candidato inicial por ser más ligero, y en el Parcial III lo comparará con BGE-M3 usando textos académicos en español.
 
+El modelo se usa con el pipeline de clasificación zero-shot de Hugging Face ([Hugging Face, s. f.](https://huggingface.co/docs/inference-providers/main/tasks/zero-shot-classification)). Este enfoque, basado en inferencia de lenguaje natural, tiene limitaciones estudiadas en la literatura (Ma et al., 2021), por lo que su desempeño se comprobará con textos reales del proyecto.
+
+
 
 
 
