@@ -1,4 +1,3 @@
-#  **Javier Emilio Aranda Espinoza**
+# Javier Emilio Aranda Espinoza
 
-Rol en el proyecto: Investigacion y pulir el readme
-
+Rol en el proyecto: Investigación y revisión de la documentación (README e investigación)
