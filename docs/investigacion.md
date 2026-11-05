@@ -21,6 +21,9 @@ La acumulación de información digital en el entorno universitario ha sido estu
 
 Otro antecedente relevante es la investigación de Álvarez-Flores, Magdaleno Moreno y Núñez-Gómez (2024), que analizó las competencias informacionales de 746 estudiantes universitarios de seis países hispanohablantes. Los resultados identificaron áreas de oportunidad en la búsqueda, evaluación y gestión de información digital. Aunque el estudio se enfoca principalmente en el uso de bibliotecas digitales, permite reconocer que la administración de información sigue siendo un reto dentro de la educación universitaria.
 
+Para dimensionar el contexto, la Encuesta Nacional sobre Disponibilidad y Uso de Tecnologías de la Información en los Hogares (ENDUTIH) 2025 del INEGI estimó que **86.1 %** de la población mexicana de 6 años y más usó internet, lo que equivale a **104.9 millones de personas** ([INEGI, 2026](https://www.inegi.org.mx/contenidos/saladeprensa/boletines/2026/endutih/ENDUTIH_25.pdf)). Esto indica que la mayor parte de la población, incluidos los estudiantes universitarios, recibe información por canales digitales, lo que vuelve relevante contar con herramientas que ayuden a ordenarla. Estas cifras muestran el alcance de los medios digitales, pero no miden por sí solas la sobrecarga de información; por eso se complementan con los estudios anteriores.
+
+
 
 
 A partir de estos antecedentes, se identifica una oportunidad para desarrollar una herramienta que facilite la clasificación inicial de mensajes académicos. El proyecto ClassMate AI propone utilizar inteligencia artificial para analizar textos proporcionados por el estudiante y sugerir una categoría relacionada con su contenido. Las categorías iniciales serán tareas, exámenes, recordatorios y temas de estudio.
@@ -252,3 +255,5 @@ Sillence, E., Dawson, J. A., McKellar, K., \& Neave, N. (2023). How do students 
 
 
 UNESCO. (2023). \*Guidance for generative AI in education and research\*. https://unesdoc.unesco.org/ark:/48223/pf0000386693
+
+- INEGI. (2026). [Encuesta Nacional sobre Disponibilidad y Uso de Tecnologías de la Información en los Hogares (ENDUTIH) 2025](https://www.inegi.org.mx/contenidos/saladeprensa/boletines/2026/endutih/ENDUTIH_25.pdf).
