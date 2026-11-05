@@ -1,3 +1,4 @@
+
 # ClassMate AI: Organizador académico inteligente
 
 ClassMate AI es una herramienta basada en inteligencia artificial diseñada para ayudar a estudiantes universitarios a organizar su información académica. El sistema recibe textos como instrucciones de profesores, avisos de clase y pendientes escolares, y utiliza un modelo de clasificación de lenguaje para identificar y separar la información en categorías como tareas, exámenes, recordatorios y temas de estudio. Su objetivo es facilitar la organización de actividades académicas, reducir el tiempo dedicado a ordenar información y ayudar a los estudiantes a consultar sus responsabilidades de manera más clara.
@@ -115,3 +116,33 @@ Para el Parcial III se realizarán las siguientes actividades:
 - [How do students use digital technology to manage their university-based data?](https://doi.org/10.1080/0144929X.2022.2126948).
 - [Cognitive load and pedagogical tension in multi-platform online learning](https://doi.org/10.1371/journal.pone.0347566).
 - Google. [Google Colab – FAQ](https://research.google.com/colaboratory/faq.html).
+
+\# ClassMate AI: Organizador académico inteligente
+
+
+
+\## 1. Nombre y descripción del proyecto
+
+
+
+ClassMate AI es un proyecto de inteligencia artificial enfocado en ayudar a estudiantes universitarios a organizar la información académica que reciben en mensajes, instrucciones y avisos. Su objetivo es facilitar la clasificación de estos textos en categorías como tareas, exámenes, recordatorios y temas de estudio, para que los estudiantes puedan identificar con mayor facilidad qué tipo de información están recibiendo. El sistema utilizará un modelo de clasificación de texto que sugerirá una categoría para cada entrada, permitiendo que el usuario revise y corrija el resultado cuando sea necesario.
+
+
+
+\## 2. Equipo
+
+
+
+| Nombre completo | Papel en el proyecto |
+
+|:---|:---|
+
+| Mariano Hernández Antuñano | Desarrollo del caso de uso, identificación de riesgos éticos, edición del README y organización de la estructura del proyecto. |
+
+| Javier Emilio Aranda Espinoza | Investigación y revisión de la documentación. |
+
+| Alexa González Del Castillo Torres | Investigación, organización y documentación del proyecto. |
+
+| Paola Bocanegra Téllez | Elaboración y corrección del README, y organización del proyecto. |
+
+
