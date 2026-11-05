@@ -93,11 +93,11 @@ La inteligencia artificial puede utilizarse para analizar información escrita y
 
 
 
-Para ClassMate AI se propone utilizar clasificación de texto de tipo \*zero-shot\* o clasificación sin ejemplos específicos de entrenamiento para cada categoría. Este enfoque permite proporcionar un texto y un conjunto de etiquetas posibles para que el modelo estime cuál se relaciona mejor con el contenido.
+Para ClassMate AI se propone utilizar clasificación de texto de tipo *zero-shot* o clasificación sin ejemplos específicos de entrenamiento para cada categoría. Este enfoque permite proporcionar un texto y un conjunto de etiquetas posibles para que el modelo estime cuál se relaciona mejor con el contenido.
 
 
 
-La documentación de Hugging Face explica que la clasificación \*zero-shot\* permite proporcionar una oración o un párrafo junto con las etiquetas candidatas, incluso cuando el modelo no fue entrenado específicamente con esas etiquetas. Esto resulta útil para explorar categorías propias de un proyecto sin tener que construir desde el inicio un conjunto amplio de datos etiquetados.
+La documentación de Hugging Face explica que la clasificación *zero-shot* permite proporcionar una oración o un párrafo junto con las etiquetas candidatas, incluso cuando el modelo no fue entrenado específicamente con esas etiquetas. Esto resulta útil para explorar categorías propias de un proyecto sin tener que construir desde el inicio un conjunto amplio de datos etiquetados.
 
 
 
@@ -105,7 +105,7 @@ Una ventaja de este enfoque es que permite comenzar con categorías definidas pa
 
 
 
-Sin embargo, no se debe asumir que todos los modelos de clasificación funcionan igual de bien. Ma, Yao, Lin y Zhao (2021) analizaron dificultades de la clasificación \*zero-shot\* basada en inferencia de lenguaje natural. Los autores identificaron variaciones importantes en el desempeño entre conjuntos de datos y señalaron que algunos modelos pueden depender de patrones de palabras que no necesariamente representan el significado completo del texto.
+Sin embargo, no se debe asumir que todos los modelos de clasificación funcionan igual de bien. Ma, Yao, Lin y Zhao (2021) analizaron dificultades de la clasificación *zero-shot* basada en inferencia de lenguaje natural. Los autores identificaron variaciones importantes en el desempeño entre conjuntos de datos y señalaron que algunos modelos pueden depender de patrones de palabras que no necesariamente representan el significado completo del texto.
 
 
 
@@ -113,7 +113,7 @@ Por esta razón, la selección del modelo deberá considerar su capacidad para p
 
 
 
-Como candidato inicial se propone evaluar modelos disponibles en Hugging Face que estén diseñados para clasificación \*zero-shot\*. La elección definitiva se realizará después de comparar los resultados obtenidos con ejemplos en español. No se considerará suficiente que un modelo tenga buenos resultados en otros idiomas o tareas: deberá demostrar un comportamiento adecuado para las categorías específicas de ClassMate AI.
+Como candidato inicial se propone evaluar modelos disponibles en Hugging Face que estén diseñados para clasificación *zero-shot*. La elección definitiva se realizará después de comparar los resultados obtenidos con ejemplos en español. No se considerará suficiente que un modelo tenga buenos resultados en otros idiomas o tareas: deberá demostrar un comportamiento adecuado para las categorías específicas de ClassMate AI.
 
 
 
@@ -160,13 +160,13 @@ Como resultado, el sistema mostrará una categoría sugerida. Las categorías in
 
 
 
-\- \*\*Tarea:\*\* instrucciones para realizar actividades, ejercicios, proyectos o trabajos.
+\- **Tarea:** instrucciones para realizar actividades, ejercicios, proyectos o trabajos.
 
-\- \*\*Examen:\*\* información relacionada con evaluaciones, pruebas o parciales.
+\- **Examen:** información relacionada con evaluaciones, pruebas o parciales.
 
-\- \*\*Recordatorio:\*\* avisos sobre fechas, pendientes o actividades que requieren atención.
+\- **Recordatorio:** avisos sobre fechas, pendientes o actividades que requieren atención.
 
-\- \*\*Tema de estudio:\*\* contenidos, lecturas o conceptos que el estudiante debe revisar o aprender.
+\- **Tema de estudio:** contenidos, lecturas o conceptos que el estudiante debe revisar o aprender.
 
 
 
@@ -241,26 +241,32 @@ Finalmente, ClassMate AI deberá utilizarse como una herramienta de apoyo y no c
 
 
 
-Álvarez-Flores, E. P., Magdaleno Moreno, M., \& Núñez-Gómez, P. (2024). Competencia y comportamiento informacionales de estudiantes para el uso de las bibliotecas digitales universitarias. \*Investigación Bibliotecológica: Archivonomía, Bibliotecología e Información, 38\*(99), 129–144. https://doi.org/10.22201/iibi.24488321xe.2024.99.58881
+Álvarez-Flores, E. P., Magdaleno Moreno, M., & Núñez-Gómez, P. (2024). Competencia y comportamiento informacionales de estudiantes para el uso de las bibliotecas digitales universitarias. *Investigación Bibliotecológica: Archivonomía, Bibliotecología e Información, 38*(99), 129–144. https://doi.org/10.22201/iibi.24488321xe.2024.99.58881
 
 
 
-Edwards, A., \& Camacho-Collados, J. (2024). Language Models for Text Classification: Is In-Context Learning Enough? \*Proceedings of the 2024 Joint International Conference on Computational Linguistics, Language Resources and Evaluation (LREC-COLING)\*, 10058–10072. https://aclanthology.org/2024.lrec-main.879/
+Edwards, A., & Camacho-Collados, J. (2024). Language Models for Text Classification: Is In-Context Learning Enough? *Proceedings of the 2024 Joint International Conference on Computational Linguistics, Language Resources and Evaluation (LREC-COLING)*, 10058–10072. https://aclanthology.org/2024.lrec-main.879/
 
 
 
-Hugging Face. (s. f.). \*Zero-Shot Classification\*. https://huggingface.co/docs/inference-providers/main/tasks/zero-shot-classification
+Hugging Face. (s. f.). *Zero-Shot Classification*. https://huggingface.co/docs/inference-providers/main/tasks/zero-shot-classification
 
 
 
-Ma, T., Yao, J.-G., Lin, C.-Y., \& Zhao, T. (2021). Issues with Entailment-based Zero-shot Text Classification. \*Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing\*. Association for Computational Linguistics. https://www.microsoft.com/en-us/research/publication/issues-with-entailment-based-zero-shot-text-classification/
+Ma, T., Yao, J.-G., Lin, C.-Y., & Zhao, T. (2021). Issues with Entailment-based Zero-shot Text Classification. *Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing*. Association for Computational Linguistics. https://www.microsoft.com/en-us/research/publication/issues-with-entailment-based-zero-shot-text-classification/
 
 
 
-Sillence, E., Dawson, J. A., McKellar, K., \& Neave, N. (2023). How do students use digital technology to manage their university-based data: Strategies, accumulation difficulties and feelings of overload? \*Behaviour \& Information Technology, 42\*(14), 2442–2451. https://doi.org/10.1080/0144929X.2022.2126948
+Sillence, E., Dawson, J. A., McKellar, K., & Neave, N. (2023). How do students use digital technology to manage their university-based data: Strategies, accumulation difficulties and feelings of overload? *Behaviour & Information Technology, 42*(14), 2442–2451. https://doi.org/10.1080/0144929X.2022.2126948
 
 
 
-UNESCO. (2023). \*Guidance for generative AI in education and research\*. https://unesdoc.unesco.org/ark:/48223/pf0000386693
+UNESCO. (2023). *Guidance for generative AI in education and research*. https://unesdoc.unesco.org/ark:/48223/pf0000386693
 
-- INEGI. (2026). [Encuesta Nacional sobre Disponibilidad y Uso de Tecnologías de la Información en los Hogares (ENDUTIH) 2025](https://www.inegi.org.mx/contenidos/saladeprensa/boletines/2026/endutih/ENDUTIH_25.pdf).
+INEGI. (2026). [Encuesta Nacional sobre Disponibilidad y Uso de Tecnologías de la Información en los Hogares (ENDUTIH) 2025](https://www.inegi.org.mx/contenidos/saladeprensa/boletines/2026/endutih/ENDUTIH_25.pdf).
+
+Laurer, M., van Atteveldt, W., Casas, A., & Welbers, K. (2023). Building efficient universal classifiers with natural language inference. arXiv. https://arxiv.org/abs/2312.17543
+
+Laurer, M. (s. f.). *deberta-v3-base-zeroshot-v2.0* [Model card]. Hugging Face. https://huggingface.co/MoritzLaurer/deberta-v3-base-zeroshot-v2.0
+
+Laurer, M. (s. f.). *bge-m3-zeroshot-v2.0* [Model card]. Hugging Face. https://huggingface.co/MoritzLaurer/bge-m3-zeroshot-v2.0
