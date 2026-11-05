@@ -31,7 +31,7 @@ El objetivo no es sustituir los calendarios, las plataformas escolares ni la res
 
 
 
-\## 2. Soluciones existentes
+## 2. Soluciones existentes
 
 
 
@@ -59,7 +59,7 @@ También es importante reconocer que una clasificación automática no garantiza
 
 
 
-\## 3. Uso de inteligencia artificial y selección del modelo
+## 3. Uso de inteligencia artificial y selección del modelo
 
 
 
@@ -103,7 +103,7 @@ La investigación de Edwards y Camacho-Collados (2024), publicada en las actas d
 
 
 
-\## 4. Usuarios y requisitos del sistema
+## 4. Usuarios y requisitos del sistema
 
 
 
@@ -157,7 +157,7 @@ El alcance inicial será limitado para facilitar su desarrollo y evaluación. Fu
 
 
 
-\## 5. Consideraciones éticas y riesgos
+## 5. Consideraciones éticas y riesgos
 
 
 
@@ -189,7 +189,7 @@ Finalmente, ClassMate AI deberá utilizarse como una herramienta de apoyo y no c
 
 
 
-\## 6. Referencias
+## 6. Referencias
 
 
 
