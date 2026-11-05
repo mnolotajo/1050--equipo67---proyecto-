@@ -228,6 +228,13 @@ También debe considerarse que los modelos pueden presentar diferencias de desem
 
 Finalmente, ClassMate AI deberá utilizarse como una herramienta de apoyo y no como sustituto de la revisión personal de las actividades académicas. La decisión final sobre la interpretación de un aviso o una instrucción deberá permanecer en manos del estudiante.
 
+**Sesgos y a quién podrían perjudicar.** La Model Card de la serie zeroshot-v2.0 indica que los sesgos pueden venir del modelo base, de los datos de entrenamiento y de los datos sintéticos usados ([Model Card](https://huggingface.co/MoritzLaurer/bge-m3-zeroshot-v2.0)). Además, el modelo elegido está pensado principalmente para inglés. Por eso podrían salir más afectados los estudiantes que escriben en español informal, con modismos regionales o mezclando idiomas, porque sus mensajes podrían clasificarse peor, y quienes tienen menos tiempo para revisar las sugerencias, porque un error les costaría más. Las pruebas del Parcial III incluirán textos en español con distintos estilos de redacción.
+
+**Quién responde si se equivoca.** La decisión final es del estudiante, que debe revisar cada sugerencia. El equipo es responsable de presentar los resultados como sugerencias y de informar las limitaciones de la herramienta. El autor del modelo no responde por los resultados, porque lo publica con licencia MIT, que lo ofrece sin garantía.
+
+**Costo energético.** El modelo se ejecutará en Google Colab con GPU, es decir, en centros de datos de Google, y ese consumo no lo ve el usuario. Aun así, es una opción de bajo consumo frente a un modelo generativo grande: el autor del modelo explica que los clasificadores tipo BERT son considerablemente más eficientes que los modelos generativos para tareas de clasificación ([Laurer et al., 2023](https://arxiv.org/abs/2312.17543)), y este modelo tiene alrededor de 200 millones de parámetros. Para reducir el consumo, el equipo usará la GPU solo en las pruebas que la necesiten y evitará repetir ejecuciones innecesarias.
+
+
 
 
 ## 6. Referencias
