@@ -33,6 +33,14 @@ El objetivo no es sustituir los calendarios, las plataformas escolares ni la res
 
 ## 2. Soluciones existentes
 
+| Solución | Qué ofrece | Limitaciones |
+|:---|:---|:---|
+| Notas y listas manuales (cuaderno, notas del celular) | Control total y sin costo | Hay que clasificar cada aviso a mano; es fácil olvidar o perder información |
+| Calendarios digitales (por ejemplo, Google Calendar) | Fechas de entrega y recordatorios | Cada evento se captura a mano; no interpretan el texto de un mensaje |
+| Aplicaciones de tareas y notas (por ejemplo, Notion o Todoist) | Listas, etiquetas y proyectos | El usuario define y asigna las categorías; no clasifican el contenido automáticamente |
+| Plataformas educativas (por ejemplo, Moodle o Google Classroom) | Centralizan tareas y avisos de cada curso | Solo cubren los cursos de esa plataforma; no integran mensajes de otros canales |
+
+
 
 
 Actualmente existen diferentes herramientas digitales que ayudan a los estudiantes a administrar sus actividades. Entre ellas se encuentran los calendarios electrónicos, las aplicaciones de listas de pendientes, las plataformas educativas y los servicios de correo electrónico.
@@ -60,6 +68,21 @@ También es importante reconocer que una clasificación automática no garantiza
 
 
 ## 3. Uso de inteligencia artificial y selección del modelo
+
+Comparación del modelo elegido con una alternativa multilingüe, según sus Model Cards en Hugging Face ([DeBERTa](https://huggingface.co/MoritzLaurer/deberta-v3-base-zeroshot-v2.0) y [BGE-M3](https://huggingface.co/MoritzLaurer/bge-m3-zeroshot-v2.0)):
+
+| Característica | deberta-v3-base-zeroshot-v2.0 | bge-m3-zeroshot-v2.0 |
+|:---|:---|:---|
+| Parámetros | Aproximadamente 0.2B | Aproximadamente 0.6B |
+| Memoria estimada (16 bits) | Cerca de 0.4 GB | Cerca de 1.2 GB |
+| Licencia | MIT | MIT |
+| Idiomas | Pensado para inglés | Multilingüe |
+| Texto máximo | 512 tokens | 8192 tokens |
+| Ventajas | Más ligero y rápido; mejor desempeño que los multilingües en inglés | Admite español y textos más largos |
+| Desventajas | Puede rendir peor con textos en español | Más pesado; su Model Card advierte que los multilingües rinden peor que los de solo inglés |
+
+El equipo mantiene DeBERTa como candidato inicial por ser más ligero, y en el Parcial III lo comparará con BGE-M3 usando textos académicos en español.
+
 
 
 
@@ -104,6 +127,21 @@ La investigación de Edwards y Camacho-Collados (2024), publicada en las actas d
 
 
 ## 4. Usuarios y requisitos del sistema
+
+**Requisitos funcionales**
+
+- Recibir un texto pegado por el estudiante (mensaje, aviso o apunte).
+- Clasificarlo en una categoría: tarea, examen, recordatorio o tema de estudio.
+- Mostrar la categoría sugerida de forma clara.
+- Permitir que el usuario corrija la categoría manualmente.
+- Funcionar con textos escritos en español.
+
+**Requisitos no funcionales**
+
+- No pedir datos personales innecesarios.
+- Responder en pocos segundos.
+- Tener una interfaz sencilla, sin configuración técnica.
+
 
 
 
